@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "League Spartan", sans-serif;
+}
+
+/* ################################################ */
+/* ###############  Global css  ################ */
+/* ################################################ */
+
+.primary-bg-color {
+  background-color: #125476;
+}
+
+.primary-border-color {
+  border-color: #125476;
+}
+
+.primary-text-color {
+  color: #125476;
+}
+
+.secondary-text-color {
+  color: #4a4e56;
+}
+
+.banner-font-size {
+  font-size: 70px;
+}
+
+.section-big-heading-size {
+  font-size: 38px;
+}
+
+.section-small-heading-size {
+  font-size: 22px;
+}
+
+.content-font-size {
+  font-size: 17px;
+}
+
+/* ################################################ */
+/* ###############  Home page css  ################ */
+/* ################################################ */
+
+.visaCardContainer {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  justify-content: space-between;
+}
+
+.stepsSection {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  justify-content: space-between;
+}
+
+.CountryOfferCardContainer {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  justify-content: space-between;
+}
+
+.visa-card-image::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.CountryCardButton {
+  clip-path: polygon(50% 0%, 0 0, 50% 99%);
+  background: #125476;
+  position: absolute;
+  top: 35%;
+  right: -35.5%;
+  background: rgb(240, 240, 240);
+}
+
+.countryCard:hover .CountryCardButton {
+  background: #125476;
+  color: white;
+}
+
+/* ################################################ */
+/* ###############  About page css  ################ */
+/* ################################################ */
+
+.about-banner:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  border-bottom-left-radius: 50px;
+}
+
+.about-bottom-sec:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, #125476 2%, rgba(0, 0, 0, 0) 129%);
+  z-index: 1;
+  border-bottom-left-radius: 50px;
+  border-radius: 25px;
+  z-index: 0;
+}
+
+/* ################################################ */
+/* ###############  Approval page css  ################ */
+/* ################################################ */
+
+.approvals-banner:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #125476;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.testimonialContainer {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  justify-content: space-between;
+  padding-block: 10%;
+  row-gap: 25px;
+}
+
+/* ################################################ */
+/* ###############  Approval page css  ################ */
+/* ################################################ */
+.serviceForm {
+  position: relative;
+}
+
+.serviceForm:after {
+  position: absolute;
+  content: "";
+  background: #125476;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+/* ################################################ */
+/* ###############  Service page css  ################ */
+/* ################################################ */
+
+.service-list-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* @media query */
+
+@media (max-width: 1024px) {
+  .banner-font-size {
+    font-size: 60px;
+  }
+
+  .section-big-heading-size {
+    font-size: 24px;
+  }
+
+  .section-small-heading-size {
+    font-size: 16px;
+  }
+
+  .content-font-size {
+    font-size: 14px;
+  }
+
+  .service-list-container {
+    grid-template-columns: 33% 33% 33%;
+    row-gap: 50px;
+    padding-inline: 10px;
+  }
+
+  .CountryOfferCardContainer {
+    grid-template-columns: 33% 33% 33%;
+    row-gap: 50px;
+  }
+
+  .CountryCardButton {
+    right: -100px;
+  }
+
+  .footer-inner {
+    flex-wrap: wrap;
+  }
+
+  .footer-nav-box {
+    width: 50%;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  .service-list-container {
+    grid-template-columns: 50% 50%;
+  }
+
+  .stepsSection {
+    grid-template-columns: 48% 48%;
+    row-gap: 20px;
+  }
+
+  .CountryOfferCardContainer {
+    grid-template-columns: 48% 48%;
+    row-gap: 50px;
+  }
+
+  .CountryCardButton {
+    right: -100px;
+  }
+}
+
+@media (max-width: 799px) {
+  .banner-font-size {
+    font-size: 40px;
+  }
+
+  .visaCardContainer {
+    grid-template-columns: 48% 48%;
+    row-gap: 20px;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .footer-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 564px) {
+  .banner-font-size {
+    font-size: 25px;
+  }
+  .service-list-container {
+    grid-template-columns: 100%;
+  }
+  .visaCardContainer {
+    grid-template-columns: 100%;
+  }
+  .stepsSection {
+    grid-template-columns: 100%;
+  }
+
+  .CountryOfferCardContainer {
+    grid-template-columns: 100%;
+    row-gap: 50px;
+  }
+
+  .CountryCardButton {
+    right: -100px;
+    top: 52%;
+  }
+
+  .footer-nav-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 364px) {
+  .CountryCardButton {
+    top: 35%;
+  }
+}
