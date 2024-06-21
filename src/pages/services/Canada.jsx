@@ -10,7 +10,7 @@ const Canada = () => {
     <>
       <Banner title={"Canada"} subTitle={"Immigration To Canada "} />
       <Section1 />
-      <ChooseUsSection />
+      {/* <ChooseUsSection /> */}
       <Section3 />
     </>
   );

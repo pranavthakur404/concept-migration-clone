@@ -13,7 +13,7 @@ const Uk = () => {
         subTitle={"Immigration To United Kingdom"}
       />
       <Section1 />
-      <ChooseUsSection />
+      {/* <ChooseUsSection /> */}
       <Section3 />
     </>
   );
