@@ -5,7 +5,7 @@ import Container from "../global/Container";
 
 const Section2 = () => {
   return (
-    <div className="w-full bg-[#F0F3F9] py-[100px]">
+    <div className="w-full bg-[#F0F3F9] py-[80px]">
       <Container>
         <div className="w-full flex flex-wrap md:flex-nowrap justify-evenly gap-5 ">
           <div className="w-[100%] md:w-[50%]">
@@ -55,11 +55,11 @@ const Section2 = () => {
           <div className="w-[100%] md:w-[50%] relative grid">
             <img
               src="https://conceptmigration.com/wp-content/uploads/2023/04/3-6-1.jpg"
-              className="rounded-lg my-0 mx-auto w-[100%] "
+              className="rounded-lg my-0 mx-auto w-[70%] "
               alt=""
             />
 
-            <div className="flex w-full mt-3 gap-2">
+            <div className="flex my-0 mx-auto mt-3 gap-2 w-[70%]">
               <img
                 src="https://conceptmigration.com/wp-content/uploads/2023/04/1572434610_aaaaa.jpg"
                 className="w-[50%] rounded-lg my-0 mx-auto"

@@ -10,9 +10,9 @@ import Container from "../global/Container";
 
 const Footer = () => {
   return (
-    <div className="w-full pt-10 primary-bg-color">
+    <div className="w-full primary-bg-color">
       <Container>
-        <div className="w-full footer flex justify-between">
+        <div className="w-full py-[50px] footer flex justify-between">
           <div className="w-[30%] footer-box">
             {/* <img
               src="https://conceptmigration.com/wp-content/uploads/2023/04/Concept-Migration-White-1536x436.png"
@@ -39,12 +39,7 @@ const Footer = () => {
                   Important Pages
                 </p>
                 <p className="text-[16px] text-white mt-3">About Us</p>
-                <p className="text-[16px] text-white mt-3">Blog</p>
                 <p className="text-[16px] text-white mt-3">Contact Us</p>
-                <p className="text-[16px] text-white mt-3">Privacy Policy</p>
-                <p className="text-[16px] text-white mt-3">
-                  Terms and Condition
-                </p>
               </div>
               <div className="w-[33%] footer-nav-box">
                 <p className="text-[18px] font-[700] text-white mb-5">
@@ -126,12 +121,9 @@ const Footer = () => {
           </div>
         </div>
         {/* footer bottom */}
-        <div className="w-full flex flex-wrap  justify-between items-center py-10 text-white border-t border-gray-100 mt-5">
+        <div className="w-full flex flex-wrap  justify-between items-center py-5 text-white border-t border-gray-100 mt-5">
           <p className="content-font-size">
-            © 2023 ALL RIGHT RESERVED | CONCEPT MIGRATION
-          </p>
-          <p className="mt-5 sm:mt-0 content-font-size">
-            MANAGED BY HUCO DIGITAL
+            © 2024 ALL RIGHT RESERVED | CONCEPT MIGRATION
           </p>
         </div>
       </Container>

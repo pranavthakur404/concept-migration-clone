@@ -6,7 +6,7 @@ import Container from "../global/Container";
 
 const OurBusiness = () => {
   return (
-    <div className="w-full my-[100px]">
+    <div className="w-full py-[80px]">
       <Container>
         <div className="w-[100%] text-center">
           <h3 className="section-small-heading-size underline primary-text-color font-[700]">

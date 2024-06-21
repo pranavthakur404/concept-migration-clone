@@ -28,7 +28,8 @@
 }
 
 .banner-font-size {
-  font-size: 70px;
+  font-size: 65px;
+  line-height: normal;
 }
 
 .section-big-heading-size {
@@ -43,6 +44,14 @@
   font-size: 17px;
 }
 
+.childMenu {
+  display: none;
+}
+
+.mainMenu:hover .childMenu {
+  display: block;
+}
+
 /* ################################################ */
 /* ###############  Home page css  ################ */
 /* ################################################ */
@@ -51,6 +60,16 @@
   display: grid;
   grid-template-columns: 31% 31% 31%;
   justify-content: space-between;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 15px !important;
+  background: white;
+  padding: 14px 15px;
+  border-radius: 100px;
+  font-weight: 900;
+  opacity: 0.4;
 }
 
 .stepsSection {

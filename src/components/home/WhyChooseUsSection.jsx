@@ -5,7 +5,7 @@ import ChooseUsLeftSection from "./ChooseUsLeftSection";
 
 const WhyChooseUsSection = () => {
   return (
-    <div className="full py-10">
+    <div className="full py-[80px]">
       <Container>
         <div className="w-full flex flex-wrap  md:flex-nowrap justify-between">
           {/* left */}

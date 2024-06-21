@@ -6,7 +6,7 @@ import VisaTypeCard from "./VisaTypeCard";
 
 const Section3 = () => {
   return (
-    <div className="w-full bg-[#F0F3F9] py-10">
+    <div className="w-full py-[80px] bg-[#F0F3F9]">
       <Container>
         <div className="w-full text-center">
           <h3 className="section-small-heading-size underline primary-text-color font-[700]">

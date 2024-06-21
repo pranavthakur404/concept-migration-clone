@@ -10,11 +10,11 @@ const Section2 = () => {
   const [icon2, setIcon2] = useState(true);
   return (
     <Container>
-      <div className="w-full mt-[50px] flex flex-wrap md:flex-nowrap">
+      <div className="w-full py-[80px] flex flex-wrap md:flex-nowrap">
         <div className="w-[100%] mt-5 md:mt-0 md:w-[50%] relative">
           <img
             src="https://conceptmigration.com/wp-content/uploads/2023/04/ims-flexibility.jpg"
-            className="h-[100%] sm:h-[70%] md:h-[70%] rounded-lg my-0 mx-auto"
+            className="w-[100%] sm:w-[70%] md:w-[70%] rounded-lg my-0 mx-auto"
             alt=""
           />
 

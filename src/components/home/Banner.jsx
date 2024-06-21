@@ -23,15 +23,15 @@ const Banner = () => {
               }}
             >
               <Container>
-                <div className="content py-5 mx-10 w-[80%]">
+                <div className="content py-5 mx-10 w-[80%] md:w-[60%]">
                   <button
                     type="button"
                     className="bg-[#ffffff1a]  border-[#125476] border-2 text-white px-5 py-3 rounded-br-xl section-big-heading-size rounded-tl-xl
-      font-[500] section-small-heading-size"
+      font-[500] section-small-heading-size mb-5"
                   >
                     {list.heading}
                   </button>
-                  <p className="banner-font-size font-[500]  text-white">
+                  <p className="banner-font-size font-[500] mb-5  text-white">
                     {list.title}
                   </p>
                   <p className="section-small-heading-size mb-5 text-[#AAAFB8]">

@@ -12,7 +12,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Tesimonials = () => {
   return (
-    <div className="w-full mt-[50px] pb-[50px]">
+    <div className="w-full pb-[80px]">
       <Container>
         <div className="w-full"></div>
         <div className="w-full border-2 border-gray-300 lg:flex p-5">
