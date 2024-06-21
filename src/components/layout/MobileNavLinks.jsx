@@ -81,11 +81,11 @@ const links = [
   //   title: "USA",
   //   to: "/",
   // },
-  // {
-  //   id: 6,
-  //   title: "Europe",
-  //   to: "/",
-  // },
+  {
+    id: 6,
+    title: "Europe",
+    to: "/service/europe",
+  },
   // {
   //   id: 7,
   //   title: "Australia",
