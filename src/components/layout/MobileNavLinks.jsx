@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const MobileNavLinks = () => {
+const MobileNavLinks = ({ setIsNav }) => {
   return (
     <ul className="mt-5">
       {links.map((link) => {
@@ -10,6 +10,9 @@ const MobileNavLinks = () => {
             <NavLink
               to={link.to}
               className="content-font-size font-[700] primary-text-color"
+              onClick={() => {
+                setIsNav(false);
+              }}
             >
               {link.title}
             </NavLink>

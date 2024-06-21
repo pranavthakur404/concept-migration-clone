@@ -23,7 +23,10 @@ const NavigationLinks = () => {
             )}
             {link?.children?.map((list) => {
               return (
-                <div className="absolute bottom-[-40px] max-w-max shadow pr-10 z-[2] bg-white py-3 pl-2 childMenu">
+                <div
+                  key={list.id}
+                  className="absolute bottom-[-40px] max-w-max shadow pr-10 z-[2] bg-white py-3 pl-2 childMenu"
+                >
                   <p className="whitespace-nowrap primary-text-color content-font-size ">
                     <NavLink to={list.to}>{list.title}</NavLink>
                   </p>

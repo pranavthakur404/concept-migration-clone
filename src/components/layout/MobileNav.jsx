@@ -15,7 +15,7 @@ const MobileNav = ({ isNav, setIsNav }) => {
             }}
           />
         </div>
-        <MobileNavLinks />
+        <MobileNavLinks setIsNav={setIsNav} />
       </div>
     </div>
   );
