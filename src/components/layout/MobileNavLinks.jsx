@@ -27,7 +27,14 @@ const MobileNavLinks = ({ setIsNav }) => {
                   className="w-full shadow pr-10 z-[2] bg-white py-3 pl-2 mobileChildMenu"
                 >
                   <p className="whitespace-nowrap primary-text-color content-font-size ">
-                    <NavLink to={list.to}>{list.title}</NavLink>
+                    <NavLink
+                      to={list.to}
+                      onClick={() => {
+                        setIsNav(false);
+                      }}
+                    >
+                      {list.title}
+                    </NavLink>
                   </p>
                 </div>
               );
