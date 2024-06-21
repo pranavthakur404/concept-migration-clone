@@ -48,11 +48,8 @@ const Footer = () => {
                 <p className="text-[16px] text-white mt-3">
                   Canada Immigration
                 </p>
-                <p className="text-[16px] text-white mt-3">USA Immigration</p>
                 <p className="text-[16px] text-white mt-3">UK Immigration</p>
-                <p className="text-[16px] text-white mt-3">
-                  Australia Immigration
-                </p>
+
                 <p className="text-[16px] text-white mt-3">
                   Europe Immigration
                 </p>

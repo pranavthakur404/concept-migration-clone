@@ -37,7 +37,7 @@ const Banner = () => {
                   <p className="section-small-heading-size mb-5 text-[#AAAFB8]">
                     {list.content}
                   </p>
-                  <DefaultButton text={list.buttonText} />
+                  <DefaultButton text={"Now more"} />
                 </div>
               </Container>
             </div>

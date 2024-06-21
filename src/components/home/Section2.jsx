@@ -20,12 +20,12 @@ const Section2 = () => {
 
           <img
             src="https://conceptmigration.com/wp-content/uploads/2023/04/53fb47542d.jpg"
-            className="h-[30%] rounded-lg my-0 mx-auto absolute right-[5%] bottom-[25%] border-4 border-white shadow-2xl"
+            className="h-[30%] rounded-lg my-0 mx-auto absolute right-[5%] bottom-[0%] border-4 border-white shadow-2xl"
             alt=""
           />
 
           {/* content */}
-          <div className="flex gap-3 items-center my-5 cursor-pointer w-[80%] sm:w-[60%] bg-white shadow px-2 py-5 absolute bottom-[-50px] sm:bottom-[150px] rounded-lg left-[12%] sm:left-[20%] ">
+          <div className="flex gap-3 items-center my-5 cursor-pointer w-[80%] sm:w-[60%] bg-white shadow px-2 py-5 absolute bottom-[-50px] sm:bottom-[-50px] rounded-lg left-[12%] sm:left-[20%] ">
             {/* icon */}
             <div>
               <span className="w-[55px] h-[55px] border border-dashed text-white  rounded-full primary-bg-color flex justify-center items-center cursor-pointer">
@@ -126,7 +126,7 @@ const Section2 = () => {
               </p>
             </div>
           </div>
-          <DefaultButton text={"Apply Now"} />
+          <DefaultButton text={"know More"} />
         </div>
       </div>
     </Container>

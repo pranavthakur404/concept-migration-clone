@@ -81,7 +81,7 @@ const router = createBrowserRouter(
         path="/contact-us"
         element={
           <Suspense fallback={<PreLoading />}>
-            <Uk></Uk>
+            <Contact></Contact>
           </Suspense>
         }
       ></Route>
