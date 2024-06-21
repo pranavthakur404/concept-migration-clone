@@ -5,7 +5,7 @@ import StepsCard from "./StepsCard";
 
 const StepsSection = () => {
   return (
-    <div className="w-full py-[80px]">
+    <div className="w-full py-[50px]">
       <Container>
         <div className="w-full text-center">
           <h3 className="section-small-heading-size underline primary-text-color font-[700]">

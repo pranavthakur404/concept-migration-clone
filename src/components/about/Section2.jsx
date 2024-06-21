@@ -5,7 +5,7 @@ import Container from "../global/Container";
 
 const Section2 = () => {
   return (
-    <div className="w-full bg-[#F0F3F9] py-[80px]">
+    <div className="w-full bg-[#F0F3F9] py-[50px]">
       <Container>
         <div className="w-full flex flex-wrap md:flex-nowrap justify-evenly gap-5 ">
           <div className="w-[100%] md:w-[50%]">

@@ -5,7 +5,7 @@ import CountryOfferCard from "./CountryOfferCard";
 
 const CountryWeOffer = () => {
   return (
-    <div className="w-full bg-[#F0F3F9] py-[80px]">
+    <div className="w-full bg-[#F0F3F9] py-[50px]">
       <Container>
         <div className="w-full text-center">
           <h3 className="section-small-heading-size underline primary-text-color font-[700]">

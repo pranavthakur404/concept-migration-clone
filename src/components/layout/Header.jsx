@@ -7,9 +7,9 @@ import Logo from "../../assets/logo.png";
 
 const Header = ({ isNav, setIsNav }) => {
   return (
-    <div className="w-full shadow">
+    <div className="w-full shadow sticky top-0 z-[3] bg-white">
       <Container>
-        <div className="w-full flex justify-between items-center py-5 md:py-0">
+        <div className="w-full flex justify-between items-center py-5 md:py-0 ">
           <img src={Logo} className="w-[150px]" alt="" />
           <div className="hidden md:block">
             <NavigationLinks />

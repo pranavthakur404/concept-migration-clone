@@ -10,7 +10,7 @@ const Section2 = () => {
   const [icon2, setIcon2] = useState(true);
   return (
     <Container>
-      <div className="w-full py-[80px] flex flex-wrap md:flex-nowrap">
+      <div className="w-full py-[50px] flex flex-wrap md:flex-nowrap">
         <div className="w-[100%] mt-5 md:mt-0 md:w-[50%] relative">
           <img
             src="https://conceptmigration.com/wp-content/uploads/2023/04/ims-flexibility.jpg"
@@ -41,7 +41,7 @@ const Section2 = () => {
             </div>
           </div>
         </div>
-        <div className="w-[100%] md:w-[50%]">
+        <div className="w-[100%] mt-[50px] md:mt-0 md:w-[50%]">
           <h3 className="section-small-heading-size underline primary-text-color font-[700]">
             Concept Migration
           </h3>
