@@ -52,6 +52,13 @@
   display: block;
 }
 
+.mobileChildMenu {
+  display: none;
+}
+
+.mobileMainMenu:hover .mobileChildMenu {
+  display: block;
+}
 /* ################################################ */
 /* ###############  Home page css  ################ */
 /* ################################################ */
