@@ -9,6 +9,11 @@ import DefaultButton from "../global/DefaultButton";
 import Container from "../global/Container";
 
 const Banner = () => {
+  const handleClick = () => {
+    window.scrollTo({ top: 700, behavior: "smooth" });
+    console.log("working");
+  };
+
   return (
     <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
       {data.map((list) => {
@@ -37,7 +42,9 @@ const Banner = () => {
                   <p className="section-small-heading-size mb-5 text-[#AAAFB8]">
                     {list.content}
                   </p>
-                  <DefaultButton text={"Now more"} />
+                  <div onClick={handleClick}>
+                    <DefaultButton text={"Know more"} />
+                  </div>
                 </div>
               </Container>
             </div>

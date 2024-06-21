@@ -6,7 +6,7 @@ const VisaTypeCard = ({ img, content, title, icon }) => {
       <img
         src={img}
         alt=""
-        className="rounded-lg w-full shadow visa-card-image relative"
+        className="rounded-lg w-full sm:h-[40vh] shadow visa-card-image relative"
       />
       {/* content */}
       <div className="flex gap-3 items-center my-5 cursor-pointer bg-white py-3 px-2 border primary-border-color rounded-lg shadow">

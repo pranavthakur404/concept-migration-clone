@@ -45,15 +45,9 @@ const data = [
     subTitle: "Unlock a word of possibilities with immigration to the Canada.",
   },
   {
-    id: 3,
-    img: "https://conceptmigration.com/wp-content/uploads/2021/10/New-York-City-USA-Manhattan-Queensboro-Bridge-buildings-lights_1920x1200.jpg",
-    title: "USA Immigration",
-    subTitle: "Make your American Dream a reality with our migration services",
-  },
-  {
     id: 4,
     img: "https://conceptmigration.com/wp-content/uploads/2021/10/Most-Wonderful-Places-in-Europe-1068x731-1.jpg",
-    title: "Uk Immigration",
-    subTitle: "Discover new opportunities and a better life in UK.",
+    title: "Europe Immigration",
+    subTitle: "Discover new opportunities and a better life in Europe.",
   },
 ];

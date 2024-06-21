@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const CountryOfferCard = ({ title, subTitle, img }) => {
   return (
-    <div className="w-full shadow relative countryCard overflow-hidden">
-      <img src={img} alt="" />
+    <div className="w-full  shadow relative countryCard overflow-hidden">
+      <img src={img} alt="" className="w-full h-[35vh]" />
       <div className="py-5 px-10  bg-white">
         <p className="section-small-heading-size font-[600]">{title}</p>
         <p className="content-font-size primary-text-color">{subTitle}</p>

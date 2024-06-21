@@ -21,7 +21,7 @@ const Section1 = () => {
               </p>
               <p className="secondary-text-color content-font-size">
                 Looking for the best and most trusted immigration consultants
-                for Canada in Dubai? Concept Migration is here to help you!
+                for Canada in Dubai? Apex World Advisors is here to help you!
                 Canada is the 2nd largest country in the world when it comes to
                 the total area and the 4th largest in terms of the land area.
                 The country also ranks high in terms of quality of life,
@@ -42,8 +42,8 @@ const Section1 = () => {
                 residents when compared to the numbers of previous year. If this
                 is something in which you are interested in, then ensure that
                 you get professional assistance and guidance from the most
-                reliable Canada immigration consultant in Dubai at Concept
-                Migration to assure yourself of a hassle-free and smooth
+                reliable Canada immigration consultant in Dubai at Apex World
+                Advisors to assure yourself of a hassle-free and smooth
                 immigration experience!
               </p>
               <DefaultButton text={"Contact Us"} />

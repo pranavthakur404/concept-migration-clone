@@ -78,7 +78,7 @@ const links = [
   {
     id: 6,
     title: "Europe",
-    to: "/",
+    to: "/service/europe",
   },
   // {
   //   id: 7,

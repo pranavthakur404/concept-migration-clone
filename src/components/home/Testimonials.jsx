@@ -41,16 +41,7 @@ const Tesimonials = () => {
                 Our Happy clients
               </h3>
               <p className="text-[14px] sm:text-[16px] secondary-text-color py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam.
-              </p>
-              <p className="text-[14px] secondary-text-color sm:text-[16px] py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
+                What our client says about us.
               </p>
             </div>
             <div className="w-full mt-6 ">
@@ -76,16 +67,16 @@ const Tesimonials = () => {
                     </div>
                     <div className="py-5">
                       <p className="text-white text-[13px] sm:text-[16px]">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only five centuries, bu
+                        I cannot thank Apex World Advisors enough for their help
+                        in making my immigration dreams come true. From the
+                        initial consultation to the visa approval, they were
+                        there every step of the way. I highly recommend their
+                        services to anyone seeking a stress-free immigration
+                        experience.
                       </p>
                       <p className="mt-3 text-white text-[14px]">
                         <span className="font-bold">P.Rajendra Prasad</span>
-                        <span className="ml-3">Customer</span>
+                        <span className="ml-3">Manager</span>
                       </p>
                     </div>
                   </div>
@@ -102,16 +93,17 @@ const Tesimonials = () => {
                     </div>
                     <div className="py-5">
                       <p className="text-white text-[13px] sm:text-[16px]">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only five centuries, bu
+                        As an immigrant, I was hesitant to trust just any
+                        immigration consultant. But Apex World Advisors exceeded
+                        my expectations with their excellent service and
+                        attention to detail. Their team was professional,
+                        knowledgeable, and always available to answer my
+                        questions. Thanks to them, I now have a new life in
+                        Canada
                       </p>
                       <p className="mt-3 text-white text-[14px]">
-                        <span className="font-bold">P.Rajendra Prasad</span>
-                        <span className="ml-3">Customer</span>
+                        <span className="font-bold">Ali Akbar</span>
+                        <span className="ml-3">Doctor</span>
                       </p>
                     </div>
                   </div>

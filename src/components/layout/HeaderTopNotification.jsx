@@ -14,7 +14,7 @@ const HeaderTopNotification = () => {
           </li>
           <li className="text-white col-span-3">
             Email :{" "}
-            <span className="text-[#AAAFB8]">Info@conceptmigration.com</span>
+            <span className="text-[#AAAFB8]">Info@apexworldadvisors.com</span>
           </li>
           <li className="text-white col-span-3">
             Phone : <span className="text-[#AAAFB8]">+971 50 576 7171</span>

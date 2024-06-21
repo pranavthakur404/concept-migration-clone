@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 import Banner from "../components/home/Banner";
 import Section2 from "../components/home/Section2";
@@ -10,6 +11,10 @@ import FindOutSection from "../components/home/FindOutSection";
 import Tesimonials from "../components/home/Testimonials";
 
 const Home = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <div className="w-full">
       <Banner />

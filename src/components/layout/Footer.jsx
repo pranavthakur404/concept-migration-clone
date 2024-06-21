@@ -5,6 +5,7 @@ import { FaHome } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 import Container from "../global/Container";
 
@@ -25,33 +26,41 @@ const Footer = () => {
               individuals and families.
             </p>
 
-            <button className="px-7 py-3 rounded-tl-xl rounded-br-xl bg-white font-[500]">
-              About Us
-            </button>
+            <NavLink to="/about">
+              <button className="px-7 py-3 rounded-tl-xl rounded-br-xl bg-white font-[500]">
+                About Us
+              </button>
+            </NavLink>
           </div>
           <div className="w-[70%] footer-box  md:px-5">
             <p className="text-[20px] md:text-[24px] font-[700] text-center text-white">
-              Concept Migration - Your Gateway to Global Opportunities
+              Apex World Advisors - Your Gateway to Global Opportunities
             </p>
             <div className="w-full flex footer-inner justify-between mt-5">
               <div className="w-[33%] footer-nav-box">
                 <p className="text-[18px] font-[700] text-white mb-5">
                   Important Pages
                 </p>
-                <p className="text-[16px] text-white mt-3">About Us</p>
-                <p className="text-[16px] text-white mt-3">Contact Us</p>
+                <p className="text-[16px] text-white mt-3">
+                  <NavLink to={"about"}>About Us</NavLink>
+                </p>
+                <p className="text-[16px] text-white mt-3">
+                  <NavLink to={"/contact-us"}>Contact Us</NavLink>
+                </p>
               </div>
               <div className="w-[33%] footer-nav-box">
                 <p className="text-[18px] font-[700] text-white mb-5">
                   Countries
                 </p>
                 <p className="text-[16px] text-white mt-3">
-                  Canada Immigration
+                  <NavLink to={"/service/canada"}>Canada Immigration</NavLink>
                 </p>
-                <p className="text-[16px] text-white mt-3">UK Immigration</p>
+                <p className="text-[16px] text-white mt-3">
+                  <NavLink to={"/service/uk"}>UK Immigration</NavLink>
+                </p>
 
                 <p className="text-[16px] text-white mt-3">
-                  Europe Immigration
+                  <NavLink to={"/service/europe"}>Europe Immigration</NavLink>
                 </p>
               </div>
               <div className="w-[33%] footer-nav-box">
@@ -66,7 +75,7 @@ const Footer = () => {
                 </p>
                 <p className="text-[16px] text-white flex items-center gap-2 mt-3">
                   <FaEnvelope />
-                  info@conceptmigration.com
+                  info@apexworldadvisors.com
                 </p>
                 <p className="text-[16px] text-white flex items-center gap-2 mt-3">
                   <FaHome className="text-[40px]" /> Floo#14th, Office#1460,
@@ -119,8 +128,8 @@ const Footer = () => {
         </div>
         {/* footer bottom */}
         <div className="w-full flex flex-wrap  justify-between items-center py-5 text-white border-t border-gray-100 mt-5">
-          <p className="content-font-size">
-            © 2024 ALL RIGHT RESERVED | CONCEPT MIGRATION
+          <p className="text-[16px]">
+            © 2024 ALL RIGHT RESERVED | APEX WORLD ADVISORS
           </p>
         </div>
       </Container>

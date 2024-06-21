@@ -20,16 +20,16 @@ const Section1 = () => {
                 All You Need To Know About UK Immigration
               </p>
               <p className="secondary-text-color content-font-size">
-                Concept Migration Consultants is a leading UK immigration
+                Apex World Advisors Consultants is a leading UK immigration
                 consultants in Dubai strongly committed to consistently
                 providing world-class expert services within the areas of
-                migration visas, overseas establishment, and resettlement.
-                Concept Migration’s core service is processing visas to
-                countries like the UK. Our goal is to successfully help
-                immigrate our clients and their families to their desired
-                country. We attempt to seek out ways to secure the long-term of
-                our clients by guiding them to the proper path and processing
-                their cases while minimizing the chance of rejection.
+                migration visas, overseas establishment, and resettlement. Apex
+                World Advisors core service is processing visas to countries
+                like the UK. Our goal is to successfully help immigrate our
+                clients and their families to their desired country. We attempt
+                to seek out ways to secure the long-term of our clients by
+                guiding them to the proper path and processing their cases while
+                minimizing the chance of rejection.
               </p>
               <p className="section-small-heading-size mt-3 primary-text-color font-[700]">
                 Why Immigrate to the UK?

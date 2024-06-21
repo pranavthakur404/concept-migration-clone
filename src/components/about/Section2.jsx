@@ -16,13 +16,13 @@ const Section2 = () => {
               Leaders in Our Field
             </p>
             <p className="secondary-text-color content-font-size my-3">
-              Concept Migration is a leading immigration consultancy firm,
+              Apex World Advisors is a leading immigration consultancy firm,
               providing expert guidance and support to individuals and families
               looking to immigrate to Dubai and other countries. With a team of
               experienced professionals, we specialize in visa application
               assistance, document preparation, and immigration consultation
               services. Our goal is to make the immigration process simple and
-              stress-free for our clients. At Concept Migration, we understand
+              stress-free for our clients. At Apex World Advisors, we understand
               that immigration can be a complex and overwhelming process, which
               is why we offer a comprehensive range of services to meet the
               diverse needs of our clients.

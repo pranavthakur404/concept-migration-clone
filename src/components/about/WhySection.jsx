@@ -79,7 +79,7 @@ const WhySection = () => {
           </div>
           <div className="w-[100%] sm:w-[70%] py-10 px-5">
             <h3 className="section-small-heading-size underline text-white font-[700]">
-              Why Concept Migration
+              Why Apex World Advisors
             </h3>
             <p className="section-big-heading-size text-white font-[700]">
               {tabsData[tabs].middle}
@@ -87,9 +87,6 @@ const WhySection = () => {
             <p className="text-white content-font-size my-3">
               {tabsData[tabs].bottom}
             </p>
-            <button className="text-white text-[14px] flex items-center gap-3">
-              LEARN MORE <FaLongArrowAltRight />
-            </button>
           </div>
         </div>
       </div>

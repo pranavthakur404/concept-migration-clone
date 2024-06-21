@@ -43,7 +43,7 @@ const Section2 = () => {
         </div>
         <div className="w-[100%] mt-[50px] md:mt-0 md:w-[50%]">
           <h3 className="section-small-heading-size underline primary-text-color font-[700]">
-            Concept Migration
+            Apex World Advisors
           </h3>
           <p className="section-big-heading-size primary-text-color font-[700]">
             Discover About Us
@@ -126,7 +126,7 @@ const Section2 = () => {
               </p>
             </div>
           </div>
-          <DefaultButton text={"know More"} />
+          <DefaultButton text={"know More"} to={"/about"} />
         </div>
       </div>
     </Container>

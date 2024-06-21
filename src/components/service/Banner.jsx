@@ -14,7 +14,7 @@ const Banner = ({ title, subTitle }) => {
     >
       <div className="w-[100%]  px-5 text-center  static z-[2]">
         <div>
-          <h3 className="section-small-heading-size underline text-white font-[700]">
+          <h3 className="section-small-heading-size underline text-white font-[700] mb-3">
             {title}
           </h3>
           <p className="banner-font-size text-white font-[700]">{subTitle}</p>

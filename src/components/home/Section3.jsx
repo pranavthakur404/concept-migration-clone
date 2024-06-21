@@ -3,6 +3,10 @@ import React from "react";
 import Container from "../global/Container";
 import { FaHandHoldingWater } from "react-icons/fa";
 import VisaTypeCard from "./VisaTypeCard";
+import { FaBook } from "react-icons/fa";
+import { FaRegUser } from "react-icons/fa";
+
+import { FaSuitcase } from "react-icons/fa6";
 
 const Section3 = () => {
   return (
@@ -38,25 +42,25 @@ const data = [
   {
     id: 1,
     img: "https://conceptmigration.com/wp-content/uploads/2023/04/naluda-man-working-laptop.jpg",
-    icon: <FaHandHoldingWater />,
-    title: " Convenience",
+    icon: <FaSuitcase />,
+    title: "Visit",
     content:
-      "Our services are designed to provide a hassle-free experience for our clients, with flexible scheduling.",
+      "Unlock your Global Career with a Work Visa - Your Ticket to Professional Growth Abroad!",
   },
   {
     id: 2,
-    img: "https://conceptmigration.com/wp-content/uploads/2023/04/naluda-man-working-laptop.jpg",
-    icon: <FaHandHoldingWater />,
-    title: " Convenience",
+    img: "https://conceptmigration.com/wp-content/uploads/2022/03/home-banner-9-min.jpg",
+    icon: <FaRegUser />,
+    title: "Work",
     content:
-      "Our services are designed to provide a hassle-free experience for our clients, with flexible scheduling.",
+      "Open doors to boundless business growth and international networks with business visa",
   },
   {
     id: 3,
-    img: "https://conceptmigration.com/wp-content/uploads/2023/04/naluda-man-working-laptop.jpg",
-    icon: <FaHandHoldingWater />,
-    title: " Convenience",
+    img: "https://conceptmigration.com/wp-content/uploads/2023/04/i-11.webp",
+    icon: <FaBook />,
+    title: "Study",
     content:
-      "Our services are designed to provide a hassle-free experience for our clients, with flexible scheduling.",
+      "Explore endless academic possibilities and broaden your horizons with Apex World Advisors Services",
   },
 ];

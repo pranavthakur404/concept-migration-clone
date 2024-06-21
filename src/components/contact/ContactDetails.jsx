@@ -30,8 +30,7 @@ const ContactDetails = () => {
           </span>
           <h4 className="text-[20px] font-[500]">Address</h4>
           <p className="text-gray-500 mt-2">
-            5th Floor, Technopark, B-502, Sector 127, Noida, Uttar Pradesh
-            201301
+            Floo#14th, Office#1460, Tamani Arts Building, Business bay Dubai,
           </p>
         </div>
         <div
@@ -44,7 +43,7 @@ const ContactDetails = () => {
             <FaPhoneAlt className="primary-text-color text-[18px] lg:text-[25px]" />
           </span>
           <h4 className="text-[20px] font-[500]">Contact Details</h4>
-          <p className="text-gray-500 mt-2">info@comsindia.in</p>
+          <p className="text-gray-500 mt-2">info@apexworldadvisor.in</p>
           <p className="text-gray-500">+91 0120-4377276</p>
         </div>
       </div>

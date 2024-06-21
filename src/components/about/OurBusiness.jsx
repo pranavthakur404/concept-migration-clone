@@ -30,7 +30,7 @@ const OurBusiness = () => {
                 Our Mission
               </p>
               <p className="content-font-size secondary-text-color">
-                Our mission at Concept Migration is to provide reliable and
+                Our mission at Apex World Advisors is to provide reliable and
                 personalized immigration services.
               </p>
             </div>
@@ -44,7 +44,7 @@ const OurBusiness = () => {
               Our Mission
             </p>
             <p className="content-font-size secondary-text-color">
-              Our mission at Concept Migration is to provide reliable and
+              Our mission at Apex World Advisors is to provide reliable and
               personalized immigration services.
             </p>
             <ul className="text-left mt-5 list-disc ml-5 secondary-text-color leading-7">
@@ -63,7 +63,7 @@ const OurBusiness = () => {
                 Our Vision
               </p>
               <p className="content-font-size secondary-text-color">
-                At Concept Migration, our vision is to become a leading
+                At Apex World Advisors, our vision is to become a leading
                 immigration consultancy.
               </p>
             </div>

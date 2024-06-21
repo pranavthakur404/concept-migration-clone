@@ -18,6 +18,7 @@ const Approvals = React.lazy(() => import("./pages/Approvals"));
 const Canada = React.lazy(() => import("./pages/services/Canada"));
 const Uk = React.lazy(() => import("./pages/services/Uk"));
 const Contact = React.lazy(() => import("./pages/Contact"));
+const Europe = React.lazy(() => import("./pages/services/Europe"));
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -74,6 +75,14 @@ const router = createBrowserRouter(
         element={
           <Suspense fallback={<PreLoading />}>
             <Uk></Uk>
+          </Suspense>
+        }
+      ></Route>
+      <Route
+        path="/service/europe"
+        element={
+          <Suspense fallback={<PreLoading />}>
+            <Europe></Europe>
           </Suspense>
         }
       ></Route>
