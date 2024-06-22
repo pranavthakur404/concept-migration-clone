@@ -14,13 +14,13 @@ const Section1 = () => {
           <div className="w-[100%] md:w-[50%] flex   items-center">
             <div className="w-full text-left">
               <h3 className="section-small-heading-size underline primary-text-color font-[700] ">
-                Canada Immigration
+                Canada migration
               </h3>
               <p className="section-big-heading-size primary-text-color font-[700]">
-                Discovering Canada's Immigration Opportunities & Programs
+                Discovering Canada's migration Opportunities & Programs
               </p>
               <p className="secondary-text-color content-font-size">
-                Looking for the best and most trusted immigration consultants
+                Looking for the best and most trusted migration consultants
                 for Canada in Dubai? Apex World Advisors is here to help you!
                 Canada is the 2nd largest country in the world when it comes to
                 the total area and the 4th largest in terms of the land area.
@@ -32,19 +32,19 @@ const Section1 = () => {
               </p>
               <p className="secondary-text-color content-font-size my-5">
                 With a significant requirement for skilled professionals and
-                workers, the government of Canada has allowed immigration to
+                workers, the government of Canada has allowed migration to
                 fill in the vacant seats across the sectors where locals are
                 unwilling or unable to meet the market demand. At present, the
                 country is one of the topmost options for skilled workers who
                 are interested in immigrating to countries with a high standard
-                of living. With one of the highest per-capita immigration rates
+                of living. With one of the highest per-capita migration rates
                 worldwide, the country is expected to welcome more new permanent
                 residents when compared to the numbers of previous year. If this
                 is something in which you are interested in, then ensure that
                 you get professional assistance and guidance from the most
-                reliable Canada immigration consultant in Dubai at Apex World
+                reliable Canada migration consultant in Dubai at Apex World
                 Advisors to assure yourself of a hassle-free and smooth
-                immigration experience!
+                migration experience!
               </p>
               <DefaultButton text={"Contact Us"} />
             </div>

@@ -1,165 +1,133 @@
 import React, { useState } from "react";
 
 const ContactForm = () => {
-  //   form data
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    phoneNumber: "",
-    service: "",
-    message: "",
+    phone: "",
+    education: "",
+    jobTitle: "",
+    countryOfResidence: "",
+    countryApplyingFor: "",
   });
 
-  const handleSubmitData = async () => {
-    // try {
-    //   if (
-    //     !formData.name ||
-    //     !formData.email ||
-    //     !formData.phoneNumber ||
-    //     !formData.service ||
-    //     !formData.message
-    //   ) {
-    //     toast.error("All fields required");
-    //     return null;
-    //   }
-    //   const res = await axios.post(`${api_url}/contact/send`, formData);
-    //   console.log(res);
-    //   setFormData({
-    //     name: "",
-    //     email: "",
-    //     phoneNumber: "",
-    //     service: "",
-    //     message: "",
-    //   });
-    //   toast.success("Thank you, we will get back to you shortly.", {
-    //     duration: 2000,
-    //   });
-    // } catch (err) {
-    //   console.log(err);
-    //   toast.error(
-    //     "Something went wrong please refresh the page and try again.",
-    //     { duration: 3000 }
-    //   );
-    // }
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form data submitted:", formData);
+    // You can add your form submission logic here
+  };
   return (
-    <>
-      <form
-        action="#"
-        onSubmit={(e) => {
-          e.preventDefault();
-        }}
-      >
-        <div>
-          <div className="w-full text-center">
-            <input
-              type="text"
-              name="name"
-              required
-              value={formData.name}
-              onChange={(e) => {
-                setFormData((prevData) => {
-                  return { ...prevData, [e.target.name]: e.target.value };
-                });
-              }}
-              placeholder="Enter Your Name"
-              className="w-full border rounded py-4 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-            />
-          </div>
-          <div className="w-full">
-            <input
-              type="email"
-              name="email"
-              required
-              value={formData.email}
-              onChange={(e) => {
-                setFormData((prevData) => {
-                  return { ...prevData, [e.target.name]: e.target.value };
-                });
-              }}
-              placeholder="Enter Your E-Mail"
-              className="w-full border rounded py-4 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-            />
-          </div>
-          <div className="w-full">
-            <input
-              type="number"
-              name="phoneNumber"
-              required
-              value={formData.phoneNumber}
-              onChange={(e) => {
-                setFormData((prevData) => {
-                  return { ...prevData, [e.target.name]: e.target.value };
-                });
-              }}
-              placeholder="Enter Your Phone Number"
-              className="w-full border rounded py-4 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-            />
-          </div>
-          <div className="w-full">
-            <select
-              name="service"
-              id="service"
-              required
-              value={formData.service}
-              onChange={(e) => {
-                setFormData((prevData) => {
-                  return { ...prevData, [e.target.name]: e.target.value };
-                });
-              }}
-              className="w-full border rounded py-4 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-            >
-              <option value="" hidden>
-                Select Service
-              </option>
-              <option value="Housekeeping and Janitorial Services">
-                Housekeeping and Janitorial Services
-              </option>
-              <option value="Deep Cleaning">Deep Cleaning</option>
-              <option value="Pest Control">Pest Control</option>
-              <option value="MEP Services">MEP Services</option>
-              <option value="STP & WTP">STP & WTP</option>
-              <option value="option 3">
-                BMS - Automation & Security Services
-              </option>
-              <option value="Building Repairs">Building Repairs</option>
-              <option value="Landscaping Services">Landscaping Services</option>
-              <option value="Waste Management">Waste Management</option>
-              <option value="Fleet Management Systems">
-                Fleet Management Systems
-              </option>
-              <option value="Staffing Solutions">Staffing Solutions</option>
-              <option value="Staffing Solutions">Security Service</option>
-            </select>
-          </div>
-          <div className="w-full">
-            <textarea
-              name="message"
-              id="Message"
-              placeholder="Message"
-              required
-              value={formData.message}
-              onChange={(e) => {
-                setFormData((prevData) => {
-                  return { ...prevData, [e.target.name]: e.target.value };
-                });
-              }}
-              className="w-full h-[100px] border rounded py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-            />
-          </div>
+    <div className="max-w-md mx-auto p-6 border border-gray-300 rounded-lg">
+      <h2 className="text-sm font-semibold mb-3 primary-text-color">
+        ---- Get In Touch
+      </h2>
+      <h2 className="text-2xl font-semibold mb-6 primary-text-color">
+        Request Free Consultation
+      </h2>
+      <form onSubmit={handleSubmit}>
+        <div className="mb-4">
+          <label className="block text-sm font-medium mb-1 primary-text-color">
+            Name *
+          </label>
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+            className="w-full px-3 py-1 border-b border-gray-300 rounded-md"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-medium mb-1 primary-text-color">
+            Email Address *
+          </label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            className="w-full px-3 py-1 border-b border-gray-300 rounded-md"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-medium mb-1 primary-text-color">
+            Phone Number *
+          </label>
+          <input
+            type="tel"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+            required
+            className="w-full px-3 py-1 border-b border-gray-300 rounded-md"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-medium mb-1 primary-text-color">
+            Education
+          </label>
+          <input
+            type="text"
+            name="education"
+            value={formData.education}
+            onChange={handleChange}
+            className="w-full px-3 py-1 border-b border-gray-300 rounded-md"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-medium mb-1 primary-text-color">
+            Job Title
+          </label>
+          <input
+            type="text"
+            name="jobTitle"
+            value={formData.jobTitle}
+            onChange={handleChange}
+            className="w-full px-3 py-1 border-b border-gray-300 rounded-md"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-medium mb-1 primary-text-color">
+            Country of Residence
+          </label>
+          <input
+            type="text"
+            name="countryOfResidence"
+            value={formData.countryOfResidence}
+            onChange={handleChange}
+            className="w-full px-3 py-1 border-b border-gray-300 rounded-md"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-medium mb-1 primary-text-color">
+            Country Applying For
+          </label>
+          <input
+            type="text"
+            name="countryApplyingFor"
+            value={formData.countryApplyingFor}
+            onChange={handleChange}
+            className="w-full px-3 py-1 border-b border-gray-300 rounded-md"
+          />
         </div>
         <button
-          type="button"
-          className="primary-bg-color text-white py-2 px-12 mt-5 rounded-tl-lg rounded-tr-md rounded-br-2xl"
-          onClick={() => {
-            handleSubmitData();
-          }}
+          type="submit"
+          className="px-4 py-2 primary-bg-color text-[12px] text-white font-[500] rounded-md hover:bg-blue-600"
         >
-          Submit
+          Send Message
         </button>
       </form>
-    </>
+    </div>
   );
 };
 

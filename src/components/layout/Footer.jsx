@@ -21,8 +21,8 @@ const Footer = () => {
               alt=""
             /> */}
             <p className="text-white content-font-size my-10">
-              Welcome to our immigration company in Dubai, where we provide
-              professional and personalized immigration services to help
+              Welcome to our migration company in Dubai, where we provide
+              professional and personalized migration services to help
               individuals and families.
             </p>
 
@@ -53,14 +53,14 @@ const Footer = () => {
                   Countries
                 </p>
                 <p className="text-[16px] text-white mt-3">
-                  <NavLink to={"/service/canada"}>Canada Immigration</NavLink>
+                  <NavLink to={"/service/canada"}>Canada migration</NavLink>
                 </p>
                 <p className="text-[16px] text-white mt-3">
-                  <NavLink to={"/service/uk"}>UK Immigration</NavLink>
+                  <NavLink to={"/service/uk"}>UK migration</NavLink>
                 </p>
 
                 <p className="text-[16px] text-white mt-3">
-                  <NavLink to={"/service/europe"}>Europe Immigration</NavLink>
+                  <NavLink to={"/service/europe"}>Europe migration</NavLink>
                 </p>
               </div>
               <div className="w-[33%] footer-nav-box">

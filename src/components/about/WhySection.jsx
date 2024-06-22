@@ -100,17 +100,17 @@ const tabsData = [
   {
     middle: "Affordable & Flexible",
     bottom:
-      "We understand that the cost of immigration services can be a burden on your finances. To make our services even more affordable, we offer flexible payment plans to help you spread out the cost of our services over time. This way, you can receive the support you need without breaking the bank.",
+      "We understand that the cost of migration services can be a burden on your finances. To make our services even more affordable, we offer flexible payment plans to help you spread out the cost of our services over time. This way, you can receive the support you need without breaking the bank.",
   },
   {
     middle: "Up-to-date knowledge",
     bottom:
-      "Immigration laws and regulations are constantly changing, which can make the process confusing and overwhelming. Our team of experts stays up-to-date with the latest changes in immigration laws and regulations, so you can trust us to provide accurate and reliable information.",
+      "migration laws and regulations are constantly changing, which can make the process confusing and overwhelming. Our team of experts stays up-to-date with the latest changes in migration laws and regulations, so you can trust us to provide accurate and reliable information.",
   },
   {
     middle: "Time Saving Solutions:",
     bottom:
-      "We understand that the immigration process can be time-consuming and stressful, especially if you're not familiar with the requirements and procedures. Our team can save you time and hassle by providing efficient solutions and handling the paperwork on your behalf.",
+      "We understand that the migration process can be time-consuming and stressful, especially if you're not familiar with the requirements and procedures. Our team can save you time and hassle by providing efficient solutions and handling the paperwork on your behalf.",
   },
   {
     middle: "Customized Solutions",

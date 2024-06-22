@@ -16,7 +16,7 @@ const Section3 = ({ title, subTitle }) => {
           </p>
           <p className="secondary-text-color content-font-size">
             The following programs are among those for which we provide
-            immigration services.
+            migration services.
           </p>
         </div>
         <div className="mt-10 service-list-container">

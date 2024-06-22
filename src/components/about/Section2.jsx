@@ -16,16 +16,16 @@ const Section2 = () => {
               Leaders in Our Field
             </p>
             <p className="secondary-text-color content-font-size my-3">
-              Apex World Advisors is a leading immigration consultancy firm,
+              Apex World Advisors is a leading migration consultancy firm,
               providing expert guidance and support to individuals and families
-              looking to immigrate to Dubai and other countries. With a team of
+              looking to migration to Dubai and other countries. With a team of
               experienced professionals, we specialize in visa application
-              assistance, document preparation, and immigration consultation
-              services. Our goal is to make the immigration process simple and
+              assistance, document preparation, and migration consultation
+              services. Our goal is to make the migration process simple and
               stress-free for our clients. At Apex World Advisors, we understand
-              that immigration can be a complex and overwhelming process, which
-              is why we offer a comprehensive range of services to meet the
-              diverse needs of our clients.
+              that migration can be a complex and overwhelming process, which is
+              why we offer a comprehensive range of services to meet the diverse
+              needs of our clients.
             </p>
 
             <div className="w-full flex flex-wrap sm:flex-nowrap justify-between my-5">

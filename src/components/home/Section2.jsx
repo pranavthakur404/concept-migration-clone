@@ -49,10 +49,10 @@ const Section2 = () => {
             Discover About Us
           </p>
           <p className="secondary-text-color content-font-size">
-            As immigration consultants, we are committed to helping individuals
+            As migration consultants, we are committed to helping individuals
             and families achieve their dreams of living and working abroad. Our
             team of experienced professionals provides personalized guidance and
-            support throughout the immigration process.
+            support throughout the migration process.
           </p>
 
           <div

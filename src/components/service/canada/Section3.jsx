@@ -16,7 +16,7 @@ const Section3 = ({ title, subTitle }) => {
           </p>
           <p className="secondary-text-color content-font-size">
             The following programs are among those for which we provide
-            immigration services.
+            migration services.
           </p>
         </div>
         <div className="mt-10 service-list-container">
@@ -42,7 +42,7 @@ const data = [
   {
     id: 2,
     img: "https://conceptmigration.com/wp-content/uploads/2023/05/2001065-2048x1287.webp",
-    title: "Australia Immigration",
+    title: "Australia migration",
     subTitle: "Australia is best destination for education, live & work",
   },
   {

@@ -22,7 +22,7 @@ const Banner = () => {
           </p>
           <p className="text-white content-font-size my-5">
             We provide comprehensive guidance and support to individuals and
-            families navigating the complexities of immigration law.
+            families navigating the complexities of migration law.
           </p>
 
           <DefaultButton text={"Contact Us"} />

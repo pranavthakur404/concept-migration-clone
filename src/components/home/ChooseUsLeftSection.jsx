@@ -12,15 +12,15 @@ const ChooseUsLeftSection = () => {
       <p className="secondary-text-color content-font-size">
         Immigrating to a new country can be a complex and daunting process, with
         various legal requirements and regulations to navigate. At such a time,
-        having the assistance of experienced immigration consultants can make a
-        world of difference and make your immigration process easy & fast.
+        having the assistance of experienced migration consultants can make a
+        world of difference and make your migration process easy & fast.
       </p>
       <div className="my-5">
         <p className="text-[18px] primary-text-color font-[700]">
-          Professionally handled by Immigration Consultant.
+          Professionally handled by migration Consultant.
         </p>
         <p className="secondary-text-color content-font-size">
-          Your case is professionally handled by a Regulated Immigration
+          Your case is professionally handled by a Regulated migration
           Consultant from start to finish.
         </p>
       </div>

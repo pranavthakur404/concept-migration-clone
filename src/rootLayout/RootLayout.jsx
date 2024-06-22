@@ -9,6 +9,11 @@ const RootLayout = () => {
   const [isNav, setIsNav] = useState(false);
   return (
     <>
+      <img
+        src="https://www.svgrepo.com/show/28155/whatsapp.svg"
+        alt=""
+        className="w-[50px] h-[50px] fixed bottom-5 right-5 z-[3]"
+      />
       {isNav && <MobileNav isNav={isNav} setIsNav={setIsNav} />}
       <HeaderTopNotification />
       <Header isNav={isNav} setIsNav={setIsNav} />

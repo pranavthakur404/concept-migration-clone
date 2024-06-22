@@ -11,7 +11,7 @@ const Europe = () => {
   }, [pathname]);
   return (
     <>
-      <Banner title={"Europe"} subTitle={"Immigration To Europe "} />
+      <Banner title={"Europe"} subTitle={"Migration To Europe "} />
       <Section1 />
     </>
   );

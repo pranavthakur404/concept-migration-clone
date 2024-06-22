@@ -14,13 +14,13 @@ const Section1 = () => {
           <div className="w-[100%] md:w-[50%] flex   items-center">
             <div className="w-full text-left">
               <h3 className="section-small-heading-size underline primary-text-color font-[700] ">
-                UK Immigration
+                UK migration
               </h3>
               <p className="section-small-heading-size mt-3 primary-text-color font-[700]">
-                All You Need To Know About UK Immigration
+                All You Need To Know About UK migration
               </p>
               <p className="secondary-text-color content-font-size">
-                Apex World Advisors Consultants is a leading UK immigration
+                Apex World Advisors Consultants is a leading UK migration
                 consultants in Dubai strongly committed to consistently
                 providing world-class expert services within the areas of
                 migration visas, overseas establishment, and resettlement. Apex
@@ -36,14 +36,14 @@ const Section1 = () => {
               </p>
               <p className="secondary-text-color content-font-size mb-5">
                 In the year ending March 2020, formal study was the foremost
-                reason for immigration (36%), while work was the second most
+                reason for migration (36%), while work was the second most
                 typical reason (32%). Education was the main reason for
-                immigration during the amount 2009-12, and therefore the
+                migration during the amount 2009-12, and therefore the
                 reduction within the number of individuals migrating to the
                 united kingdom to review since then reflects a reduction within
                 the number of Tier 4 student visas issued to students from
                 outside the EEA and Switzerland. In 2018, study once more became
-                the foremost common reason for immigration to the United
+                the foremost common reason for migration to the United
                 Kingdom, consistent with the estimates.
               </p>
               <DefaultButton text={"Contact Us"} />

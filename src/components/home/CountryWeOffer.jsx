@@ -16,7 +16,7 @@ const CountryWeOffer = () => {
           </p>
           <p className="secondary-text-color content-font-size">
             The following countries are among those for which we provide
-            immigration services.
+            migration services.
           </p>
         </div>
         <div className="CountryOfferCardContainer mt-10">
@@ -35,19 +35,22 @@ const data = [
   {
     id: 1,
     img: "https://conceptmigration.com/wp-content/uploads/2021/10/i-10.webp",
-    title: "Uk Immigration",
+    title: "Uk migration",
     subTitle: "Discover new opportunities and a better life in UK.",
+    to: "/service/uk",
   },
   {
     id: 2,
     img: "https://conceptmigration.com/wp-content/uploads/2023/04/3474bb689a22dcc1c6b91a2a869ee055-2048x1152.jpg",
-    title: "Canada Immigration",
-    subTitle: "Unlock a word of possibilities with immigration to the Canada.",
+    title: "Canada migration",
+    subTitle: "Unlock a word of possibilities with migration to the Canada.",
+    to: "/service/canada",
   },
   {
     id: 4,
     img: "https://conceptmigration.com/wp-content/uploads/2021/10/Most-Wonderful-Places-in-Europe-1068x731-1.jpg",
-    title: "Europe Immigration",
+    title: "Europe migration",
     subTitle: "Discover new opportunities and a better life in Europe.",
+    to: "/service/europe",
   },
 ];

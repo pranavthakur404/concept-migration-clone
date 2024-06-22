@@ -13,20 +13,20 @@ const Section1 = () => {
           <div className="w-[100%] md:w-[50%] flex   items-center">
             <div className="w-full text-left">
               <h3 className="section-small-heading-size underline primary-text-color font-[700] ">
-                Immigration to Europe
+                migration to Europe
               </h3>
               <p className="section-small-heading-size primary-text-color font-[700] mt-5">
-                Get the Latest Information for Europe's Immigration : Everything
+                Get the Latest Information for Europe's migration : Everything
                 You Need to Know
               </p>
               <p className="secondary-text-color content-font-size">
                 Europe is in great need of immigrants to continue the excellent
                 economic growth the country has experienced over the past few
                 years. To keep up with the trend the Europe keeps increasing
-                immigration targets to numbers over 400,000 every year. Europe
+                migration targets to numbers over 400,000 every year. Europe
                 has developed a highly diverse and flexible list of European
-                Immigration Programs. Providence Migration offers a complete
-                suite of immigration services for Europe.
+                migration Programs. Providence Migration offers a complete
+                suite of migration services for Europe.
               </p>
 
               <p className="section-small-heading-size primary-text-color font-[700] mt-5">

@@ -12,7 +12,7 @@ const StepsSection = () => {
             The Steps of
           </h3>
           <p className="section-big-heading-size primary-text-color font-[700]">
-            Immigration Process
+            migration Process
           </p>
         </div>
         <div className="stepsSection mt-10">

@@ -13,7 +13,7 @@ const Canada = () => {
   }, [pathname]);
   return (
     <>
-      <Banner title={"Canada"} subTitle={"Immigration To Canada "} />
+      <Banner title={"Canada"} subTitle={"Migration To Canada "} />
       <Section1 />
       {/* <ChooseUsSection /> */}
       {/* <Section3 /> */}

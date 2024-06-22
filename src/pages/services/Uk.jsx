@@ -15,7 +15,7 @@ const Uk = () => {
     <>
       <Banner
         title={"United Kingdom"}
-        subTitle={"Immigration To United Kingdom"}
+        subTitle={"Migration To United Kingdom"}
       />
       <Section1 />
       {/* <ChooseUsSection /> */}

@@ -68,10 +68,10 @@ const Tesimonials = () => {
                     <div className="py-5">
                       <p className="text-white text-[13px] sm:text-[16px]">
                         I cannot thank Apex World Advisors enough for their help
-                        in making my immigration dreams come true. From the
+                        in making my migration dreams come true. From the
                         initial consultation to the visa approval, they were
                         there every step of the way. I highly recommend their
-                        services to anyone seeking a stress-free immigration
+                        services to anyone seeking a stress-free migration
                         experience.
                       </p>
                       <p className="mt-3 text-white text-[14px]">
@@ -94,7 +94,7 @@ const Tesimonials = () => {
                     <div className="py-5">
                       <p className="text-white text-[13px] sm:text-[16px]">
                         As an immigrant, I was hesitant to trust just any
-                        immigration consultant. But Apex World Advisors exceeded
+                        migration consultant. But Apex World Advisors exceeded
                         my expectations with their excellent service and
                         attention to detail. Their team was professional,
                         knowledgeable, and always available to answer my

@@ -61,9 +61,9 @@ const data = [
   {
     id: 1,
     heading: "Our Vision to Grow Better",
-    title: "Guide To Seamless, Immigration",
+    title: "Guide To Seamless, migration",
     content:
-      " Our team of trusted immigration consultants is equipped to handle your case, and our registered agents will provide professional assistance  throughout your visa application process.",
+      " Our team of trusted migration consultants is equipped to handle your case, and our registered agents will provide professional assistance  throughout your visa application process.",
     buttonText: "Pay Online",
     link: "/",
     image:
@@ -71,10 +71,10 @@ const data = [
   },
   {
     id: 2,
-    heading: "Our Vision to Grow Better",
-    title: "Guide To Seamless, Immigration",
+    heading: "Our Vison To Grow Better",
+    title: "Your Partner For Global Mobility.",
     content:
-      " Our team of trusted immigration consultants is equipped to handle your case, and our registered agents will provide professional assistance  throughout your visa application process.",
+      "Unlock your global potential and experience seamless immigration with our trusted immigration company in Dubai. Let us guide you towards your dream destination",
     buttonText: "Pay Online",
     link: "/",
     image:
